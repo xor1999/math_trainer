@@ -1,0 +1,202 @@
+[
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "55 + 23",
+    "correct_answer": 78,
+    "user_answer": 78,
+    "is_correct": true,
+    "time_seconds": 6.072,
+    "timestamp": "2026-03-21T22:53:12.376663"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "96 + 89",
+    "correct_answer": 185,
+    "user_answer": 175,
+    "is_correct": false,
+    "time_seconds": 10.803,
+    "timestamp": "2026-03-21T22:53:24.001647"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "39 + 65",
+    "correct_answer": 104,
+    "user_answer": 104,
+    "is_correct": true,
+    "time_seconds": 8.001,
+    "timestamp": "2026-03-21T22:53:33.521893"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "31 + 60",
+    "correct_answer": 91,
+    "user_answer": 91,
+    "is_correct": true,
+    "time_seconds": 2.21,
+    "timestamp": "2026-03-21T22:53:36.553935"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "22 + 35",
+    "correct_answer": 57,
+    "user_answer": 57,
+    "is_correct": true,
+    "time_seconds": 3.302,
+    "timestamp": "2026-03-21T22:53:40.682964"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "88 + 81",
+    "correct_answer": 169,
+    "user_answer": 169,
+    "is_correct": true,
+    "time_seconds": 3.777,
+    "timestamp": "2026-03-21T22:53:45.282554"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "60 + 67",
+    "correct_answer": 127,
+    "user_answer": 127,
+    "is_correct": true,
+    "time_seconds": 3.297,
+    "timestamp": "2026-03-21T22:53:49.393617"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "74 + 21",
+    "correct_answer": 95,
+    "user_answer": 95,
+    "is_correct": true,
+    "time_seconds": 3.213,
+    "timestamp": "2026-03-21T22:53:53.434289"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "33 + 22",
+    "correct_answer": 55,
+    "user_answer": 55,
+    "is_correct": true,
+    "time_seconds": 2.37,
+    "timestamp": "2026-03-21T22:53:56.618001"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "46 + 17",
+    "correct_answer": 63,
+    "user_answer": 63,
+    "is_correct": true,
+    "time_seconds": 7.596,
+    "timestamp": "2026-03-21T22:54:05.033787"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "80 + 37",
+    "correct_answer": 117,
+    "user_answer": 117,
+    "is_correct": true,
+    "time_seconds": 3.533,
+    "timestamp": "2026-03-22T16:27:32.974367"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "54 + 98",
+    "correct_answer": 152,
+    "user_answer": 152,
+    "is_correct": true,
+    "time_seconds": 4.664,
+    "timestamp": "2026-03-22T16:27:38.459403"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "73 + 71",
+    "correct_answer": 144,
+    "user_answer": 144,
+    "is_correct": true,
+    "time_seconds": 2.516,
+    "timestamp": "2026-03-22T16:27:41.795368"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "27 + 66",
+    "correct_answer": 93,
+    "user_answer": 93,
+    "is_correct": true,
+    "time_seconds": 7.248,
+    "timestamp": "2026-03-22T16:27:49.860976"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "12 + 66",
+    "correct_answer": 78,
+    "user_answer": 78,
+    "is_correct": true,
+    "time_seconds": 7.034,
+    "timestamp": "2026-03-22T16:27:57.722194"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "99 + 25",
+    "correct_answer": 124,
+    "user_answer": 124,
+    "is_correct": true,
+    "time_seconds": 3.338,
+    "timestamp": "2026-03-22T16:28:01.880621"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "63 + 95",
+    "correct_answer": 158,
+    "user_answer": 158,
+    "is_correct": true,
+    "time_seconds": 5.101,
+    "timestamp": "2026-03-22T16:28:07.801547"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "61 + 29",
+    "correct_answer": 90,
+    "user_answer": 90,
+    "is_correct": true,
+    "time_seconds": 3.59,
+    "timestamp": "2026-03-22T16:28:12.215881"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "29 + 54",
+    "correct_answer": 83,
+    "user_answer": 83,
+    "is_correct": true,
+    "time_seconds": 5.769,
+    "timestamp": "2026-03-22T16:28:18.804614"
+  },
+  {
+    "technique": "2-digit + 2-digit",
+    "category": "addition",
+    "problem": "23 + 15",
+    "correct_answer": 38,
+    "user_answer": 38,
+    "is_correct": true,
+    "time_seconds": 5.552,
+    "timestamp": "2026-03-22T16:28:25.174974"
+  }
+]

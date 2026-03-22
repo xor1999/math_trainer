@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Math Trainer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Mental <span>Math</span> Trainer</h1>
+    </header>
+
+    <nav>
+        <button id="nav-practice">Practice</button>
+        <button id="nav-test">Test</button>
+        <button id="nav-stats">Stats</button>
+    </nav>
+
+    <!-- Technique Select View -->
+    <main>
+        <div id="select-view" class="view active">
+            <div class="settings-row">
+                <label for="num-problems">Problems:</label>
+                <input type="number" id="num-problems" value="10" min="1" max="100">
+            </div>
+            <div id="technique-list"></div>
+        </div>
+
+        <!-- Practice / Test View -->
+        <div id="practice-view" class="view">
+            <div class="practice-header">
+                <div class="mode-badge" id="practice-mode-badge">Practice</div>
+                <h2 id="practice-title"></h2>
+                <div class="progress-bar"><div class="fill" id="progress-fill"></div></div>
+                <div style="display:flex; justify-content:space-between; margin-top:0.5rem;">
+                    <span class="timer" id="problem-counter">1 / 10</span>
+                    <span class="timer" id="timer">0.0s</span>
+                </div>
+            </div>
+
+            <div class="problem-display" id="problem-text"></div>
+
+            <input type="text" class="answer-input" id="answer-input"
+                   inputmode="numeric" autocomplete="off" placeholder="?">
+
+            <div class="feedback" id="feedback"></div>
+
+            <div class="hint-area" id="hint-area">
+                <button class="hint-btn" id="hint-btn">Show hint</button>
+                <div class="hint-text" id="hint-text" style="display:none;"></div>
+            </div>
+
+            <div class="practice-controls">
+                <button class="btn btn-ghost" id="back-btn">← Back</button>
+            </div>
+        </div>
+
+        <!-- Summary View -->
+        <div id="summary-view" class="view">
+            <div class="session-summary">
+                <h2>Session Complete</h2>
+                <div class="summary-stats">
+                    <div class="stat-card">
+                        <div class="value" id="summary-score">—</div>
+                        <div class="label">Score</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="value" id="summary-correct">—</div>
+                        <div class="label">Correct</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="value" id="summary-avg-time">—</div>
+                        <div class="label">Avg Time</div>
+                    </div>
+                </div>
+                <div style="display:flex; gap:0.75rem; justify-content:center;">
+                    <button class="btn btn-primary" id="summary-again">Go Again</button>
+                    <button class="btn btn-ghost" id="summary-back">Pick Another</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats View -->
+        <div id="stats-view" class="view">
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Technique</th>
+                        <th>Done</th>
+                        <th>Accuracy</th>
+                        <th>Avg Time</th>
+                    </tr>
+                </thead>
+                <tbody id="stats-body"></tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
