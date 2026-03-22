@@ -99,6 +99,53 @@ class MultBy5(Technique):
 
 
 @register
+class SquareEndingIn5(Technique):
+    name = "Square numbers ending in 5"
+    category = "multiplication"
+    description = "Square a 2-digit number ending in 5 (e.g. 35² = 3×4|25 = 1225)"
+
+    def generate(self) -> tuple[str, int]:
+        a = choice([15, 25, 35, 45, 55, 65, 75, 85, 95])
+        return f"{a}²", a * a
+
+    def hint(self, problem: str) -> str:
+        a = int(problem.replace("²", ""))
+        first = a // 10
+        product = first * (first + 1)
+        return (
+            f"First digit × next digit: {first} × {first + 1} = {product}\n"
+            f"Append 25: {product}25\n"
+            f"  {a}² = {a * a}"
+        )
+
+
+@register
+class MultSameFirstDigitSumTo10(Technique):
+    name = "Same first digit, units sum to 10"
+    category = "multiplication"
+    description = "Multiply 2-digit numbers sharing first digit whose units sum to 10 (e.g. 83×87)"
+
+    def generate(self) -> tuple[str, int]:
+        first = randint(1, 9)
+        d1 = randint(1, 9)
+        d2 = 10 - d1
+        a = first * 10 + d1
+        b = first * 10 + d2
+        return f"{a} × {b}", a * b
+
+    def hint(self, problem: str) -> str:
+        a, b = (int(x) for x in problem.split(" × "))
+        first = a // 10
+        front = first * (first + 1)
+        back = (a % 10) * (b % 10)
+        return (
+            f"First digit × next digit: {first} × {first + 1} = {front}\n"
+            f"Units product: {a % 10} × {b % 10} = {back:02d}\n"
+            f"  {a} × {b} = {a * b}"
+        )
+
+
+@register
 class SquareNumbers(Technique):
     name = "Square 2-digit numbers"
     category = "multiplication"
